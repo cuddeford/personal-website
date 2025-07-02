@@ -1,6 +1,6 @@
 {
-	"name": "sanity-template-nextjs-clean",
-	"description": "Next.js + Sanity: A Powerful Website Starter with Real-time Visual Editing",
+	"name": "personal-website",
+	"description": "My personal website including portfolio, blog, and photo galleries. Next.js + Sanity.io",
 	"scripts": {
 		"dev": "npm-run-all --parallel dev:*",
 		"dev:next": "npm run dev --workspace=frontend",
@@ -8,18 +8,6 @@
 		"import-sample-data": "cd studio && sanity dataset import sample-data.tar.gz --replace",
 		"format": "npx prettier --write ."
 	},
-	"keywords": [
-		"Sanity",
-		"Next.js",
-		"Headless CMS",
-		"Visual Editing",
-		"Live Content API (LCAPI)",
-		"Real-time"
-	],
-	"bugs": {
-		"url": "https://github.com/sanity-io/sanity-template-nextjs-clean/issues"
-	},
-	"homepage": "https://github.com/sanity-io/sanity-template-nextjs-clean#readme",
 	"workspaces": [
 		"studio",
 		"frontend"

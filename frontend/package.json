@@ -1,5 +1,5 @@
 {
-	"name": "frontend",
+	"name": "personal-website-frontend",
 	"private": true,
 	"scripts": {
 		"predev": "npm run typegen",

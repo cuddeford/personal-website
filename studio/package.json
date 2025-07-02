@@ -1,6 +1,5 @@
 {
-  "name": "starter-template",
-  "private": true,
+  "name": "personal-website-studio",
   "version": "1.0.0",
   "main": "package.json",
   "license": "UNLICENSED",
@@ -12,9 +11,6 @@
     "deploy": "sanity deploy",
     "extract-types": "sanity schema extract --enforce-required-fields"
   },
-  "keywords": [
-    "sanity"
-  ],
   "dependencies": {
     "@sanity/assist": "^4.3.0",
     "@sanity/icons": "^3.7.0",
@@ -34,11 +30,5 @@
     "eslint": "^9.28",
     "prettier": "^3.5",
     "typescript": "^5.8"
-  },
-  "prettier": {
-    "semi": false,
-    "printWidth": 100,
-    "bracketSpacing": false,
-    "singleQuote": true
   }
 }
